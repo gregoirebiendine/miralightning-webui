@@ -13,3 +13,17 @@ Ce projet regroupera, à terme, plusieurs technologies, dont le développement :
 ## Repo - Interface web
 
 Ce repo GitHub contient l'interface web ainsi que l'API reliant chaque luminaire.
+
+### Installation
+
+Cloner le repo avec :
+`git clone https://github.com/gregoirebiendine/miralightning-webui.git`
+
+Executer ces deux commandes :
+`cd miralightning-webui`
+`npm run start`
+
+## Technologie(s) utilisée(s)
+
+- ReactJS
+- TailwindCSS
