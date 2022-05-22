@@ -12,20 +12,23 @@ Ce projet regroupera, à terme, plusieurs technologies, dont le développement :
 
 ## Repo - Interface web
 
-Ce repo GitHub contient l'interface web ainsi que l'API reliant chaque luminaire.
+Ce repo GitHub contient l'interface web ainsi que l'API reliant chaque Arduino.
 
 ### Installation
 
-Cloner le repo avec :
+Cloner le repo avec:
 ```
 git clone https://github.com/gregoirebiendine/miralightning-webui.git
 ```
 
-Executer ces deux commandes :
+Executer ces commandes pour installer les dépendances et lancer le serveur:
 ```
 cd miralightning-webui
+npm -i
 npm run start
 ```
+
+Aller à l'adresse http://localhost:3000
 
 ## Technologie(s) utilisée(s)
 
